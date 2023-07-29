@@ -13,7 +13,7 @@ function App() {
         {/*        <StyledBtn color="red" fontSize={"20px"}>Hello</StyledBtn>
                 <StyledBtn color="green">Hello</StyledBtn>
                 <StyledBtn fontSize={"40px"}>Hello</StyledBtn>*/}
-                <StyledBtn btnType={"primary"}>Hello</StyledBtn>
+                <StyledBtn btnType={"primary"} active>Hello</StyledBtn>
                 <StyledBtn btnType={"outlined"}>Hello</StyledBtn>
             </Box>
         </div>
