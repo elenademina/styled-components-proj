@@ -14,7 +14,6 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
   //color: snow;
   font-size: ${props => props.fontSize || "3rem"};
   font-weight: bold;
-  animation: ${MyAnimation} 2s ease-in-out;
 
   ${props => props.btnType === "outlined" && css<StyledBtnPropsType>`
     border: 2px solid ${props => props.color || "#ffffff"};
@@ -25,6 +24,7 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
       border-color: #3c732a;
       color: #3c732a;
       background-color: transparent;
+      animation: ${MyAnimation} 2s ease-in-out infinite;
     }
   `} 
   
@@ -35,6 +35,7 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
 
     &:hover {
       background-color: #3c732a;
+      animation: ${MyAnimation} 2s ease-in-out infinite;
     }
 
   `}
