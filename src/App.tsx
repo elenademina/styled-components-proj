@@ -38,7 +38,7 @@ const Box = styled.div`
     cursor: zoom-in;
   }
   
-  // @media ${myTheme.media.tablet} {
-  //   flex-direction: column;
-  // }
+ /* @media ${myTheme.media.tablet} {
+    flex-direction: column;
+ */ }
 `

@@ -1,4 +1,5 @@
 import styled, {css} from "styled-components";
+import {MyAnimation} from "../styles/animations/Animations";
 
 type StyledBtnPropsType = {
     color?: string
@@ -13,6 +14,7 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
   //color: snow;
   font-size: ${props => props.fontSize || "3rem"};
   font-weight: bold;
+  animation: ${MyAnimation} 2s ease-in-out;
 
   ${props => props.btnType === "outlined" && css<StyledBtnPropsType>`
     border: 2px solid ${props => props.color || "#ffffff"};
